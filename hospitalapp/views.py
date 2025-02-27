@@ -15,3 +15,6 @@ def departments(request):
     return render(request, 'departments.html')
 def doctors(request):
     return render(request, 'doctors.html')
+def appoint(request):
+    return render(request, 'appointment.html')
+
