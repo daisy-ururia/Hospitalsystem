@@ -17,6 +17,8 @@ urlpatterns = [
     path('showC/', views.showC, name='showC'),
     path('delete/<int:id>', views.delete),
     path('deleteC/<int:id>', views.deleteC),
+    path('edit/<int:id>', views.edit, name='edit'),
+
 
 
 
